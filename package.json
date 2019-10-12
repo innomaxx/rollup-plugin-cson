@@ -1,0 +1,26 @@
+{
+  "name": "rollup-plugin-cson",
+  "version": "1.0.2",
+  "description": "CSON loader plugin for Rollup.js",
+  "main": "dist/rollup-plugin-cson.cjs.js",
+  "module": "dist/rollup-plugin-cson.esm.js",
+  "types": "./index.d.ts",
+  "repository": "https://github.com/innomaxx/rollup-plugin-cson.git",
+  "author": "innomaxx",
+  "license": "MIT",
+  "files": [
+    "dist",
+    "index.d.ts"
+  ],
+  "dependencies": {
+    "cson": "^5.1.0",
+    "rollup-pluginutils": "^2.8.2"
+  },
+  "devDependencies": {
+    "rollup": "^1.23.1"
+  },
+  "scripts": {
+    "build": "rollup -c",
+    "watch": "yarn build -w"
+  }
+}
